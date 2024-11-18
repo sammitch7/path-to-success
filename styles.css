@@ -259,11 +259,12 @@ nav ul {
     max-width: 40%;
 }
 #firstStep-wrapper {
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 #schedule-button {
     margin-left: 90px;
+    margin-right: 100px;
 }
 #mobile-mission {
     display: none;
