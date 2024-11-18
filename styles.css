@@ -1,0 +1,378 @@
+/* -------------------- CSS BY NAME -------------------------------------- */
+
+/* Author: Samantha Mitchell */
+
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/*-------------------- CSS RESET ---------------------------------------------------*/
+
+body {
+    font-family: "Inter";
+    margin: 0;
+}
+/* don't forget: TEXT CHANGE FOR HEADER P FOR MOBILE GLOBAL STYLE*/
+header {
+    text-align: center;
+    position: relative;
+}
+p {
+    font-size: .85em;
+}
+h1, h2 {
+    font-family: "Kavoon";
+    color: #ffffff;
+}
+h1 {
+    font-size: 3em;    
+    padding: 50px 0 30px 0;
+    margin:0;
+    background-color: #6B8FE7;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+    z-index: 1;
+}
+header p {
+    margin: -15px 10px 0 10px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: #D9526F;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    z-index: 0;
+    color: #ffffff;
+    font-style: italic;
+}
+nav h2 {
+    margin:0;
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: "Inter";
+    background-color: #E9BB57;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 1.25em;
+    border-radius: 0 0 10px 10px;
+    color: black;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+    padding:0;
+    padding-left: 25px;
+    flex: 0 0 100%;
+}
+h3 {
+    font-size: 1.5em;
+    color: #E9BB57; 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:0;
+    padding-left: 25px;
+    text-align: left;
+}
+h4 {
+    font-size: 1.15em;
+}
+/* ------- SERVICES START -----------*/
+
+#services-section  {
+
+}
+#services-wrapper {
+    display: grid;
+}
+.services-card {
+    padding: 15px;
+    margin: 40px;
+    background-color: #ffffff; 
+    border-radius: 20px;
+}
+
+/* ------- ASIDE START -----------*/
+
+aside {
+    color: white;
+    background-color: #D9526F; 
+    margin:0;
+    padding:0;
+}
+#choose-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-top: 0;
+    gap: 10px;
+    margin:0;
+    font-size: 1.3em;
+}
+#choose-list li {
+    flex-grow: 1;
+    flex-basis: 100px;
+    margin: 8px;
+    padding: 30px;
+    list-style-type: none;
+    background: #E9BB57;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#choose-list li:first-child {
+    background-color: #4CA7C0;
+}
+#choose-list li:nth-child(2) {
+    background-color: #6B8FE7;
+}
+#choose-list li:nth-child(3) {
+    background-color: #E9BB57;
+}
+#choose-list li:nth-child(4) {
+    background-color: #ffffff;
+}
+/* ------- PRICING START -----------*/
+
+#pricing-section {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 0;
+}
+.table-container {
+    flex: 1 1 300px;
+    text-align: left;
+    margin: 0;
+}
+.table-container h3 {
+    padding: 15px;
+}
+table {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: 2px solid #E9BB57;
+   
+    margin: auto;
+}
+thead {
+    margin:0;
+    text-align: center;
+}
+thead th {
+    margin:0 auto;
+    background-color: #E9BB57;
+    padding: 10px;
+    text-transform: uppercase;
+}
+tbody th {
+    border-right: 2px solid #E9BB57;
+    font-weight: normal;
+    padding: 10px;
+}
+tbody tr {
+    border: 2px solid #E9BB57;
+    padding: 10px;
+}
+tbody td {
+    padding: 10px;
+}
+/* ---------- FIRST STEP START -----*/
+
+#firstStep-container {
+    background-color: #D9526F;
+    color: white;
+    padding: 10px;
+}
+#firstStep-container h2 {
+    padding:10px;
+    margin-top:0;
+}
+#firstStep-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    padding-left: 5px;
+}
+#firstStep-wrapper p {
+    margin: 10px;
+    margin-left: 0px;
+}
+#schedule-button {
+    text-align: center;
+    margin-top: 10px;
+    min-width: 340px;
+    height: 60px;
+    font-size: .90em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    box-shadow: #000000 5px 6px 9px;
+    margin-bottom: 10px;
+}
+
+/* ------- FOOTER START -----------*/
+
+footer {
+    background-color: #6B8FE7;
+    border-radius: 0 0 30px 30px;
+    padding: 20px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    color:#ffffff;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    cursor: pointer;
+}
+
+/* -------------------- ROOT VARIABLES --------------------------------------- */
+:root {
+    background-color: #484FB7;
+}
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width:450px) {
+    #mission {
+    display: none;
+}
+nav ul {
+    display: none;
+}
+}
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+
+@media screen and (min-width:620px) { 
+#firstStep-container p {
+    max-width: 40%;
+}
+#firstStep-wrapper {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#schedule-button {
+    margin-left: 90px;
+}
+#mobile-mission {
+    display: none;
+}
+#mission {
+    display: block;
+}
+.services-card-group {
+    display:flex;
+}
+.services-card-group > .services-card {
+    flex: 1 1 0;
+}
+.services-card {
+    margin: 15px;
+}
+#choose-list {
+    flex-wrap: nowrap;
+}
+}
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width:950px) {
+nav h2 {
+    display: none;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    background-color: #E9BB57;
+    z-index: 3;
+    margin:0;
+    border-radius: 0 0 10px 10px;
+    position:fixed;
+}
+nav li {
+    list-style-type: none;
+    font-size: .80em;
+    padding: 10px;
+    font-family: "Inter";
+    text-transform: uppercase;
+    font-weight:bolder;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: white;
+    cursor: pointer;
+}
+#services-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+}
+.services-card-group {
+    display: grid;
+}
+footer {
+    margin-bottom: 30px;
+}
+}
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media screen and (min-width:1280px) {
+
+}
+
+/*Small- min-width: 450px
+Medium- min-width: 620px
+Large- min-width: 950px
+XL- min-width: 1280px
+*/
+
+
+
+
+/*CSS STYLES
+
+Colors
+Teal :#4CA7C0
+Purple: #484FB7
+Lavender: #6B8FE7
+Yellow: #E9BB57; 
+Pink:#D9526F;
+Dark-gray:#1E1E1E; 
+White:#ffffff; 
+
+
+Fonts
+Add to your CSS Under Imported Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+H1, H2
+Kavoon
+All other text
+Inter
+H1
+3em
+NAV H2
+1.5em
+H2
+2em
+H3
+1.5em
+H4
+1.15em
+
+*/
